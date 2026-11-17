@@ -84,3 +84,10 @@ This modernized suite builds upon the original **DSLX_Project** developed in 201
 * **Modernization & Quality Suite (2026)**: Scaler reconstruction, automated validation suite, clinical diagnostic visualizations with threshold simulation, and Python 3.10+ / joblib serialization.
 
 Licensed under the [GNU General Public License v3.0](LICENSE).
+
+---
+
+## 6. Clinical & Research Disclaimer
+
+* **Screening Purpose Only**: DSLX generates a statistical risk prediction for developmental dyslexia based on preschool/kindergarten subtests. It is an early screening and risk-stratification aid, **not a formal medical or psychological diagnosis**. Official diagnoses must be established through comprehensive evaluations conducted by certified psychological-pedagogical counselling centers (*Poradnia Psychologiczno-Pedagogiczna*).
+* **Data Privacy & GDPR**: Never commit or push raw, unanonymized patient data containing names, birth dates, or personal identifiers to Git repositories. Ensure all patient identifiers are replaced with anonymous research codes (e.g. `S001`) prior to data processing.
