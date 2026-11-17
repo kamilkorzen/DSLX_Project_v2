@@ -72,3 +72,15 @@ To re-fit the scaler on raw unnormalized training data and serialize modern `job
 python rebuild_artifacts.py --raw-train test_set.csv
 ```
 Artifacts are saved to `artifacts/` and synced with `App/Models/`.
+
+---
+
+## 5. Credits & Attribution
+
+This modernized suite builds upon the original **DSLX_Project** developed in 2018:
+
+* **Original Author & ML Architecture**: Aleksander Molak ([AlxndrMlk/DSLX_Project](https://github.com/AlxndrMlk/DSLX_Project))
+* **Scientific & Clinical Direction**: Dr. Katarzyna Chyl, Nencki Institute of Experimental Biology, Polish Academy of Sciences (Warsaw, Poland)
+* **Modernization & Quality Suite (2026)**: Scaler reconstruction, automated validation suite, clinical diagnostic visualizations with threshold simulation, and Python 3.10+ / joblib serialization.
+
+Licensed under the [GNU General Public License v3.0](LICENSE).
