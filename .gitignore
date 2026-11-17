@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Output predictions from test runs
+Predictions/*.csv
+Predictions/Plots/
+!Predictions/__placeholder.none
+
+# Patient cohorts & external raw datasets
+Juventus*.csv
+out_of_sample*.csv
+*_predykcje.csv
